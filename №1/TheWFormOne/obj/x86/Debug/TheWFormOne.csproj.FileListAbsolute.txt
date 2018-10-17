@@ -1,0 +1,10 @@
+G:\ClassLibrary2\ClassLibrary1\TheWFormOne\bin\Debug\TheWFormOne.exe
+G:\ClassLibrary2\ClassLibrary1\TheWFormOne\bin\Debug\TheWFormOne.pdb
+G:\ClassLibrary2\ClassLibrary1\TheWFormOne\obj\x86\Debug\TheWFormOne.csprojResolveAssemblyReference.cache
+G:\ClassLibrary2\ClassLibrary1\TheWFormOne\obj\x86\Debug\TheWFormOne.Form1.resources
+G:\ClassLibrary2\ClassLibrary1\TheWFormOne\obj\x86\Debug\TheWFormOne.Properties.Resources.resources
+G:\ClassLibrary2\ClassLibrary1\TheWFormOne\obj\x86\Debug\TheWFormOne.csproj.GenerateResource.Cache
+G:\ClassLibrary2\ClassLibrary1\TheWFormOne\obj\x86\Debug\TheWFormOne.exe
+G:\ClassLibrary2\ClassLibrary1\TheWFormOne\obj\x86\Debug\TheWFormOne.pdb
+G:\ClassLibrary2\ClassLibrary1\TheWFormOne\bin\Debug\ClassLibrary1.dll
+G:\ClassLibrary2\ClassLibrary1\TheWFormOne\bin\Debug\ClassLibrary1.pdb

@@ -1,0 +1,14 @@
+D:\ClassLibrary2\ClassLibrary1\TheConsoleOne\obj\x86\Debug\TheConsoleOne.csprojResolveAssemblyReference.cache
+D:\ClassLibrary2\ClassLibrary1\TheConsoleOne\bin\Debug\TheConsoleOne.exe
+D:\ClassLibrary2\ClassLibrary1\TheConsoleOne\bin\Debug\TheConsoleOne.pdb
+D:\ClassLibrary2\ClassLibrary1\TheConsoleOne\bin\Debug\ClassLibrary1.dll
+D:\ClassLibrary2\ClassLibrary1\TheConsoleOne\bin\Debug\ClassLibrary1.pdb
+D:\ClassLibrary2\ClassLibrary1\TheConsoleOne\obj\x86\Debug\TheConsoleOne.exe
+D:\ClassLibrary2\ClassLibrary1\TheConsoleOne\obj\x86\Debug\TheConsoleOne.pdb
+G:\ClassLibrary2\ClassLibrary1\TheConsoleOne\obj\x86\Debug\TheConsoleOne.exe
+G:\ClassLibrary2\ClassLibrary1\TheConsoleOne\obj\x86\Debug\TheConsoleOne.pdb
+G:\ClassLibrary2\ClassLibrary1\TheConsoleOne\obj\x86\Debug\TheConsoleOne.csprojResolveAssemblyReference.cache
+G:\ClassLibrary2\ClassLibrary1\TheConsoleOne\bin\Debug\TheConsoleOne.exe
+G:\ClassLibrary2\ClassLibrary1\TheConsoleOne\bin\Debug\TheConsoleOne.pdb
+G:\ClassLibrary2\ClassLibrary1\TheConsoleOne\bin\Debug\ClassLibrary1.dll
+G:\ClassLibrary2\ClassLibrary1\TheConsoleOne\bin\Debug\ClassLibrary1.pdb

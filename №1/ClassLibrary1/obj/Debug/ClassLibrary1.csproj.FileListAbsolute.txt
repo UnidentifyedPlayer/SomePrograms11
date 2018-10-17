@@ -1,0 +1,10 @@
+D:\ClassLibrary2\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+D:\ClassLibrary2\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+D:\ClassLibrary2\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+D:\ClassLibrary2\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+D:\ClassLibrary2\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+G:\ClassLibrary2\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+G:\ClassLibrary2\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+G:\ClassLibrary2\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+G:\ClassLibrary2\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+G:\ClassLibrary2\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
