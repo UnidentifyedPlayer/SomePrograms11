@@ -8,14 +8,6 @@ namespace TheConsoleOne
 {
     class Program
     {
-        public string ReaData(string a)//при первой попытке убери эту функцию к чертям
-        {
-            Console.WriteLine(a);
-            string t = Console.ReadLine();
-            char[] strink = t.ToCharArray();
-            char[] punctuation = { ',', '.', '/' };
-            return t;
-        }
         static string ReadData(string a)
         {
             Console.WriteLine(a);

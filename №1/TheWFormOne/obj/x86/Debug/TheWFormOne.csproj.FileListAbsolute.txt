@@ -8,3 +8,5 @@ G:\ClassLibrary2\ClassLibrary1\TheWFormOne\obj\x86\Debug\TheWFormOne.exe
 G:\ClassLibrary2\ClassLibrary1\TheWFormOne\obj\x86\Debug\TheWFormOne.pdb
 G:\ClassLibrary2\ClassLibrary1\TheWFormOne\bin\Debug\ClassLibrary1.dll
 G:\ClassLibrary2\ClassLibrary1\TheWFormOne\bin\Debug\ClassLibrary1.pdb
+D:\SomePrograms\SomePrograms\№1\TheWFormOne\obj\x86\Debug\TheWFormOne.exe
+D:\SomePrograms\SomePrograms\№1\TheWFormOne\obj\x86\Debug\TheWFormOne.pdb
