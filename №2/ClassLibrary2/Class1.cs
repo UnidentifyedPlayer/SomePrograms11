@@ -25,9 +25,6 @@ namespace ClassLibrary2
         {
             string pr = Convert.ToString(Price);
             string me = Convert.ToString(Memory);
-            Console.WriteLine("Breand of the phone - " + Brand);
-            Console.WriteLine("Phone's price - " + pr);
-            Console.WriteLine("Memory size - " + me);
             return "Breand of the phone - " + Brand + "\n Phone's price - " + pr + "\n Memory size - " + me;
         }
     }
