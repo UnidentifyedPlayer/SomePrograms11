@@ -17,53 +17,56 @@ namespace TheWFormOne
             InitializeComponent();
         }
 
-        StarSystem A;
-        int fl = 0;
+        StarSystem SystemsInstance;
+        bool isSystemCreated = false;
         private void Form1_Load(object sender, EventArgs e)
         {
-            button1.Visible = false;
-            button2.Visible = false;
-            button3.Visible = false;
-            label3.Visible = false;
+            NumberOfPlanets.Visible = false;
+            StarName.Visible = false;
+            AddPlanet.Visible = false;
+            PlanetsName.Visible = false;
+            PlanetsNameInput.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(A.PlanetNum());
+            MessageBox.Show(SystemsInstance.PlanetNum());
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            label3.Visible = true;
-            textBox2.Visible = true;
-            button4.Visible = true;
+            PlanetsName.Visible = true;
+            StarsNameInput.Visible = true;
+            PlanetsNameInput.Visible = true;
+            Ok.Visible = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(A.StarName());
+            MessageBox.Show(SystemsInstance.StarName());
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (fl == 0)
+            if (!isSystemCreated)
             {
-                if ((textBox2.Text != null) && (textBox1.Text != null))
+                if ((StarsNameInput.Text != "") && (SystemsNameInput.Text != ""))
                 {
-                    string[] a = new string[] { textBox1.Text, textBox2.Text };
-                    A = new StarSystem(a);
-                    button1.Visible = true;
-                    button2.Visible = true;
-                    button3.Visible = true;
-                    label1.Visible = false;
-                    label2.Visible = false;
-                    textBox2.Visible = false;
-                    textBox1.Visible = false;
-                    button4.Visible = false;
-                    textBox2.Clear();
-                    textBox1.Clear();
-                    fl = 1;
+                    string[] a = new string[] { SystemsNameInput.Text, StarsNameInput.Text };
+                    SystemsInstance = new StarSystem(a);
+                    NumberOfPlanets.Visible = true;
+                    StarName.Visible = true;
+                    AddPlanet.Visible = true;
+                    SystemsName.Visible = false;
+                    StarsName.Visible = false;
+                    StarsNameInput.Visible = false;
+                    SystemsNameInput.Visible = false;
+                    Ok.Visible = false;
+                    StarsNameInput.Clear();
+                    SystemsNameInput.Clear();
+                    isSystemCreated = true;
                 }
+
                 else
                 {
                     MessageBox.Show("Enter both System's and Star's name");
@@ -71,12 +74,13 @@ namespace TheWFormOne
             }
             else
             {
-                MessageBox.Show(A.AddPlanet(textBox2.Text));
-                button4.Visible = false;
-                textBox2.Visible = false;
-                label3.Visible = false;
-                textBox2.Clear();
-                textBox1.Clear();
+                SystemsInstance.AddPlanet(StarsNameInput.Text);
+                Ok.Visible = false;
+                StarsNameInput.Visible = false;
+                PlanetsName.Visible = false;
+                PlanetsNameInput.Visible = false;
+                StarsNameInput.Clear();
+                SystemsNameInput.Clear();
             }
         }
     }

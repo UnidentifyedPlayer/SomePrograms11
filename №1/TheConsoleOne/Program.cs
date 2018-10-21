@@ -14,7 +14,7 @@ namespace TheConsoleOne
             string t = Console.ReadLine();
             return t;
         }
-        static string[] TheCreation()
+        static string[] Create()
         {
             string[] names =  new string[2];
             names[0] = ReadData("Name of a new system");
@@ -23,7 +23,7 @@ namespace TheConsoleOne
         }
         static void Main(string[] args)
         {
-            StarSystem A = new StarSystem(TheCreation());
+            StarSystem A = new StarSystem(Create());
             int count;
             do
             {
@@ -37,7 +37,7 @@ namespace TheConsoleOne
                         break;
                     case 2:
                         Console.WriteLine("New planet's name: ");
-                        Console.WriteLine(A.AddPlanet(Console.ReadLine()));
+                        A.AddPlanet(Console.ReadLine()) ;
                         break;
                     case 3:
                         Console.WriteLine(A.PlanetNum());

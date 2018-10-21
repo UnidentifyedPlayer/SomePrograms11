@@ -8,10 +8,10 @@ namespace ClassLibrary1
     public class Planet
     {
         private List<Moon> moons;
-        public string Name;
-        public Planet(string name)
+        public string name;
+        public Planet(string planetname)
         {
-            Name = name;
+            name = planetname;
         }
         public void AddMoon(string[] newmoon) 
         {

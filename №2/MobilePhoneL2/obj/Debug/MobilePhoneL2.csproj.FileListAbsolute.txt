@@ -1,0 +1,7 @@
+D:\SomePrograms\SomePrograms\№2\MobilePhoneL2\bin\Debug\MobilePhoneL2.dll
+D:\SomePrograms\SomePrograms\№2\MobilePhoneL2\bin\Debug\MobilePhoneL2.pdb
+D:\SomePrograms\SomePrograms\№2\MobilePhoneL2\bin\Debug\ClassLibrary2.dll
+D:\SomePrograms\SomePrograms\№2\MobilePhoneL2\bin\Debug\ClassLibrary2.pdb
+D:\SomePrograms\SomePrograms\№2\MobilePhoneL2\obj\Debug\MobilePhoneL2.csprojResolveAssemblyReference.cache
+D:\SomePrograms\SomePrograms\№2\MobilePhoneL2\obj\Debug\MobilePhoneL2.dll
+D:\SomePrograms\SomePrograms\№2\MobilePhoneL2\obj\Debug\MobilePhoneL2.pdb

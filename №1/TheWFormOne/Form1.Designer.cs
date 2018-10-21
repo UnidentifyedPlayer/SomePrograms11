@@ -28,112 +28,121 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.NumberOfPlanets = new System.Windows.Forms.Button();
+            this.StarName = new System.Windows.Forms.Button();
+            this.SystemsNameInput = new System.Windows.Forms.TextBox();
+            this.StarsNameInput = new System.Windows.Forms.TextBox();
+            this.Ok = new System.Windows.Forms.Button();
+            this.SystemsName = new System.Windows.Forms.Label();
+            this.StarsName = new System.Windows.Forms.Label();
+            this.PlanetsName = new System.Windows.Forms.Label();
+            this.AddPlanet = new System.Windows.Forms.Button();
+            this.PlanetsNameInput = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // NumberOfPlanets
             // 
-            this.button1.Location = new System.Drawing.Point(12, 231);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 85);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Number of Planets";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.NumberOfPlanets.Location = new System.Drawing.Point(12, 231);
+            this.NumberOfPlanets.Name = "NumberOfPlanets";
+            this.NumberOfPlanets.Size = new System.Drawing.Size(170, 85);
+            this.NumberOfPlanets.TabIndex = 0;
+            this.NumberOfPlanets.Text = "Number of Planets";
+            this.NumberOfPlanets.UseVisualStyleBackColor = true;
+            this.NumberOfPlanets.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // StarName
             // 
-            this.button2.Location = new System.Drawing.Point(191, 47);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(170, 85);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Star\'s Name";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.StarName.Location = new System.Drawing.Point(191, 47);
+            this.StarName.Name = "StarName";
+            this.StarName.Size = new System.Drawing.Size(170, 85);
+            this.StarName.TabIndex = 1;
+            this.StarName.Text = "Star\'s Name";
+            this.StarName.UseVisualStyleBackColor = true;
+            this.StarName.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // SystemsNameInput
             // 
-            this.button3.Location = new System.Drawing.Point(378, 231);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(170, 85);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Add Planet";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.SystemsNameInput.Location = new System.Drawing.Point(226, 138);
+            this.SystemsNameInput.Name = "SystemsNameInput";
+            this.SystemsNameInput.Size = new System.Drawing.Size(100, 20);
+            this.SystemsNameInput.TabIndex = 3;
             // 
-            // textBox1
+            // StarsNameInput
             // 
-            this.textBox1.Location = new System.Drawing.Point(226, 138);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 3;
+            this.StarsNameInput.Location = new System.Drawing.Point(226, 165);
+            this.StarsNameInput.Name = "StarsNameInput";
+            this.StarsNameInput.Size = new System.Drawing.Size(100, 20);
+            this.StarsNameInput.TabIndex = 4;
             // 
-            // textBox2
+            // Ok
             // 
-            this.textBox2.Location = new System.Drawing.Point(226, 165);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.Ok.Location = new System.Drawing.Point(238, 231);
+            this.Ok.Name = "Ok";
+            this.Ok.Size = new System.Drawing.Size(75, 23);
+            this.Ok.TabIndex = 5;
+            this.Ok.Text = "OK";
+            this.Ok.UseVisualStyleBackColor = true;
+            this.Ok.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button4
+            // SystemsName
             // 
-            this.button4.Location = new System.Drawing.Point(237, 191);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "OK";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.SystemsName.AutoSize = true;
+            this.SystemsName.Location = new System.Drawing.Point(118, 141);
+            this.SystemsName.Name = "SystemsName";
+            this.SystemsName.Size = new System.Drawing.Size(105, 13);
+            this.SystemsName.TabIndex = 6;
+            this.SystemsName.Text = "Название системы";
             // 
-            // label1
+            // StarsName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(118, 141);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Название системы";
+            this.StarsName.AutoSize = true;
+            this.StarsName.Location = new System.Drawing.Point(139, 168);
+            this.StarsName.Name = "StarsName";
+            this.StarsName.Size = new System.Drawing.Size(71, 13);
+            this.StarsName.TabIndex = 7;
+            this.StarsName.Text = "Имя Звезды";
             // 
-            // label2
+            // PlanetsName
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(139, 168);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Имя Звезды";
+            this.PlanetsName.AutoSize = true;
+            this.PlanetsName.Location = new System.Drawing.Point(139, 194);
+            this.PlanetsName.Name = "PlanetsName";
+            this.PlanetsName.Size = new System.Drawing.Size(77, 13);
+            this.PlanetsName.TabIndex = 8;
+            this.PlanetsName.Text = "Имя Планеты";
             // 
-            // label3
+            // AddPlanet
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(332, 168);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Имя Планеты";
+            this.AddPlanet.CausesValidation = false;
+            this.AddPlanet.Location = new System.Drawing.Point(378, 231);
+            this.AddPlanet.Name = "AddPlanet";
+            this.AddPlanet.Size = new System.Drawing.Size(170, 85);
+            this.AddPlanet.TabIndex = 9;
+            this.AddPlanet.Text = "Add Planet";
+            this.AddPlanet.UseVisualStyleBackColor = true;
+            // 
+            // PlanetsNameInput
+            // 
+            this.PlanetsNameInput.Location = new System.Drawing.Point(226, 191);
+            this.PlanetsNameInput.Name = "PlanetsNameInput";
+            this.PlanetsNameInput.Size = new System.Drawing.Size(100, 20);
+            this.PlanetsNameInput.TabIndex = 10;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(560, 389);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.PlanetsNameInput);
+            this.Controls.Add(this.AddPlanet);
+            this.Controls.Add(this.PlanetsName);
+            this.Controls.Add(this.StarsName);
+            this.Controls.Add(this.SystemsName);
+            this.Controls.Add(this.Ok);
+            this.Controls.Add(this.StarsNameInput);
+            this.Controls.Add(this.SystemsNameInput);
+            this.Controls.Add(this.StarName);
+            this.Controls.Add(this.NumberOfPlanets);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -144,15 +153,16 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button NumberOfPlanets;
+        private System.Windows.Forms.Button StarName;
+        private System.Windows.Forms.TextBox SystemsNameInput;
+        private System.Windows.Forms.TextBox StarsNameInput;
+        private System.Windows.Forms.Button Ok;
+        private System.Windows.Forms.Label SystemsName;
+        private System.Windows.Forms.Label StarsName;
+        private System.Windows.Forms.Label PlanetsName;
+        private System.Windows.Forms.Button AddPlanet;
+        private System.Windows.Forms.TextBox PlanetsNameInput;
     }
 }
 

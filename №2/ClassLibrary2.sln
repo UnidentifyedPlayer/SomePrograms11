@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary2", "ClassLibrary2\ClassLibrary2.csproj", "{A4C8FF5A-F888-41A4-9D83-ABC1B21DAF06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhone", "ClassLibrary2\MobilePhone.csproj", "{A4C8FF5A-F888-41A4-9D83-ABC1B21DAF06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{2799016A-0B63-44EB-BA14-F955BFB156E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhoneL2", "MobilePhoneL2\MobilePhoneL2.csproj", "{188719D9-7228-4D31-BBA2-D5DD65D015B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2799016A-0B63-44EB-BA14-F955BFB156E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2799016A-0B63-44EB-BA14-F955BFB156E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2799016A-0B63-44EB-BA14-F955BFB156E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188719D9-7228-4D31-BBA2-D5DD65D015B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188719D9-7228-4D31-BBA2-D5DD65D015B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188719D9-7228-4D31-BBA2-D5DD65D015B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188719D9-7228-4D31-BBA2-D5DD65D015B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

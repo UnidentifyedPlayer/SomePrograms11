@@ -7,10 +7,10 @@ namespace ClassLibrary1
 {
     class Star
     {
-        public string Name;
+        public string name;
         public Star(string starname)
         {
-            Name = starname;
+            name = starname;
         }
     }
 }
