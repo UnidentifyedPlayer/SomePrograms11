@@ -21,9 +21,9 @@ namespace TheWFormOne
         bool isSystemCreated = false;
         private void Form1_Load(object sender, EventArgs e)
         {
-            NumberOfPlanets.Visible = false;
-            StarName.Visible = false;
-            AddPlanet.Visible = false;
+            NumberOfPlanetsButton.Visible = false;
+            StarNameButton.Visible = false;
+            AddPlanetButton.Visible = false;
             PlanetsName.Visible = false;
             PlanetsNameInput.Visible = false;
         }
@@ -38,7 +38,7 @@ namespace TheWFormOne
             PlanetsName.Visible = true;
             StarsNameInput.Visible = true;
             PlanetsNameInput.Visible = true;
-            Ok.Visible = true;
+            OkButton.Visible = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -54,14 +54,14 @@ namespace TheWFormOne
                 {
                     string[] a = new string[] { SystemsNameInput.Text, StarsNameInput.Text };
                     SystemsInstance = new StarSystem(a);
-                    NumberOfPlanets.Visible = true;
-                    StarName.Visible = true;
-                    AddPlanet.Visible = true;
+                    NumberOfPlanetsButton.Visible = true;
+                    StarNameButton.Visible = true;
+                    AddPlanetButton.Visible = true;
                     SystemsName.Visible = false;
                     StarsName.Visible = false;
                     StarsNameInput.Visible = false;
                     SystemsNameInput.Visible = false;
-                    Ok.Visible = false;
+                    OkButton.Visible = false;
                     StarsNameInput.Clear();
                     SystemsNameInput.Clear();
                     isSystemCreated = true;
@@ -75,7 +75,7 @@ namespace TheWFormOne
             else
             {
                 SystemsInstance.AddPlanet(StarsNameInput.Text);
-                Ok.Visible = false;
+                OkButton.Visible = false;
                 StarsNameInput.Visible = false;
                 PlanetsName.Visible = false;
                 PlanetsNameInput.Visible = false;
