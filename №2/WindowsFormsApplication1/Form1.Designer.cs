@@ -90,7 +90,7 @@
             this.AddLvl1phone.TabIndex = 2;
             this.AddLvl1phone.Text = "Add New Level 1 Phone";
             this.AddLvl1phone.UseVisualStyleBackColor = true;
-            this.AddLvl1phone.Click += new System.EventHandler(this.button1_Click);
+            this.AddLvl1phone.Click += new System.EventHandler(this.AddLvl1phone_Click);
             // 
             // AddLvl2phone
             // 
@@ -101,7 +101,7 @@
             this.AddLvl2phone.TabIndex = 3;
             this.AddLvl2phone.Text = "Add New Level 2 Phone";
             this.AddLvl2phone.UseVisualStyleBackColor = true;
-            this.AddLvl2phone.Click += new System.EventHandler(this.button2_Click);
+            this.AddLvl2phone.Click += new System.EventHandler(this.AddLvl2phone_Click);
             // 
             // brandInput
             // 

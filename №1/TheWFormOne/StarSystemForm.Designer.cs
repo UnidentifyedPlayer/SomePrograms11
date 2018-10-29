@@ -1,6 +1,6 @@
 ﻿namespace TheWFormOne
 {
-    partial class Form1
+    partial class StarSystemForm
     {
         /// <summary>
         /// Required designer variable.
@@ -48,7 +48,7 @@
             this.NumberOfPlanetsButton.TabIndex = 0;
             this.NumberOfPlanetsButton.Text = "Number of Planets";
             this.NumberOfPlanetsButton.UseVisualStyleBackColor = true;
-            this.NumberOfPlanetsButton.Click += new System.EventHandler(this.button1_Click);
+            this.NumberOfPlanetsButton.Click += new System.EventHandler(this.NumberOfPlanetsButton_Click);
             // 
             // StarNameButton
             // 
@@ -58,7 +58,7 @@
             this.StarNameButton.TabIndex = 1;
             this.StarNameButton.Text = "Star\'s Name";
             this.StarNameButton.UseVisualStyleBackColor = true;
-            this.StarNameButton.Click += new System.EventHandler(this.button2_Click);
+            this.StarNameButton.Click += new System.EventHandler(this.StarNameButton_Click);
             // 
             // SystemsNameInput
             // 
@@ -82,7 +82,7 @@
             this.OkButton.TabIndex = 5;
             this.OkButton.Text = "OK";
             this.OkButton.UseVisualStyleBackColor = true;
-            this.OkButton.Click += new System.EventHandler(this.button4_Click);
+            this.OkButton.Click += new System.EventHandler(this.OkButton_Click);
             // 
             // SystemsName
             // 
@@ -120,6 +120,7 @@
             this.AddPlanetButton.TabIndex = 9;
             this.AddPlanetButton.Text = "Add Planet";
             this.AddPlanetButton.UseVisualStyleBackColor = true;
+            this.AddPlanetButton.Click += new System.EventHandler(this.AddPlanetButton_Click);
             // 
             // PlanetsNameInput
             // 

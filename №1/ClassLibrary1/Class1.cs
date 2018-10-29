@@ -10,19 +10,26 @@ namespace ClassLibrary1
         private List<Planet> planets;
         private Star star;
         private string name;
-        public StarSystem(string[] sta)
+        public int PlanetCount
         {
-            name = sta[0];
-            star = new Star(sta[1]);
+            get { return planets.Count; }
+        }
+        public StarSystem(string[] systemInfo)
+        {
+            name = systemInfo[0];
+            star = new Star(systemInfo[1]);
             List<Planet> planets = new List<Planet>(1);
         }
         public string PlanetNum()
         {
+            if (planets == null)
+                return "Нет планет в системе";
+            else
             return Convert.ToString(planets.Count);
         }
         public string StarName()
         {
-            return star.name;
+            return star.Name;
         }
         public void AddPlanet(string planet)
         {

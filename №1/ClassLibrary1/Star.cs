@@ -7,7 +7,11 @@ namespace ClassLibrary1
 {
     class Star
     {
-        public string name;
+        private string name;
+        public string Name
+        {
+            get { return name; }
+        }
         public Star(string starname)
         {
             name = starname;

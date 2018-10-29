@@ -23,7 +23,7 @@ namespace TheConsoleOne
         }
         static void Main(string[] args)
         {
-            StarSystem A = new StarSystem(Create());
+            StarSystem SystemInstance = new StarSystem(Create());
             int count;
             do
             {
@@ -33,14 +33,14 @@ namespace TheConsoleOne
                 switch (count)
                 {
                     case 1:
-                        Console.WriteLine(A.StarName());
+                        Console.WriteLine(SystemInstance.StarName());
                         break;
                     case 2:
                         Console.WriteLine("New planet's name: ");
-                        A.AddPlanet(Console.ReadLine()) ;
+                        SystemInstance.AddPlanet(Console.ReadLine()) ;
                         break;
                     case 3:
-                        Console.WriteLine(A.PlanetNum());
+                        Console.WriteLine(SystemInstance.PlanetNum());
                         break;
                 }
             }

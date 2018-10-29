@@ -22,7 +22,7 @@ namespace WindowsFormsApplication1
 
          public static List<MobilePhone> firstLVList = new List<MobilePhone>(0);
         public static List<MobilePhoneL2> secondLVList = new List<MobilePhoneL2>(0);
-        private void button1_Click(object sender, EventArgs e)
+        private void AddLvl1phone_Click(object sender, EventArgs e)
         {
             string brand = brandInput.Text;
             float pr;
@@ -34,13 +34,13 @@ namespace WindowsFormsApplication1
             else
             {
                 MobilePhone a = new MobilePhone(brand, pr, me);
-                lvl1PhonesGrid.Rows.Add(a.brand, a.price, a.memory, a.Evaluate());
+                lvl1PhonesGrid.Rows.Add(a.Brand, a.Price, a.Memory, a.Evaluate());
                 lvl1phonesID.Items.Add(lvl1PhonesGrid.RowCount-1);
                 firstLVList.Add(a);
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void AddLvl2phone_Click(object sender, EventArgs e)
         {
             int p;
             if (!Int32.TryParse(numberOfSimsInput.Text, out p))
@@ -50,8 +50,8 @@ namespace WindowsFormsApplication1
             else
             {
                 int t = lvl1phonesID.SelectedIndex;
-                MobilePhoneL2 a = new MobilePhoneL2(firstLVList[t].brand, firstLVList[t].price, firstLVList[t].memory, p);
-                lvl2PhonesGrid.Rows.Add(a.brand, a.price, a.memory, a.simNumber, a.Evaluate());
+                MobilePhoneL2 a = new MobilePhoneL2(firstLVList[t].Brand, firstLVList[t].Price, firstLVList[t].Memory, p);
+                lvl2PhonesGrid.Rows.Add(a.Brand, a.Price, a.Memory, a.NumberOfSims, a.Evaluate());
                 secondLVList.Add(a);
             }
         }

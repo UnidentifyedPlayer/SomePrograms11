@@ -10,9 +10,9 @@ using ClassLibrary1;
 
 namespace TheWFormOne
 {
-    public partial class Form1 : Form
+    public partial class StarSystemForm : Form
     {
-        public Form1()
+        public StarSystemForm()
         {
             InitializeComponent();
         }
@@ -28,7 +28,7 @@ namespace TheWFormOne
             PlanetsNameInput.Visible = false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void NumberOfPlanetsButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show(SystemsInstance.PlanetNum());
         }
@@ -41,12 +41,12 @@ namespace TheWFormOne
             OkButton.Visible = true;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void StarNameButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show(SystemsInstance.StarName());
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void OkButton_Click(object sender, EventArgs e)
         {
             if (!isSystemCreated)
             {
@@ -82,6 +82,13 @@ namespace TheWFormOne
                 StarsNameInput.Clear();
                 SystemsNameInput.Clear();
             }
+        }
+
+        private void AddPlanetButton_Click(object sender, EventArgs e)
+        {
+            PlanetsName.Visible = true;
+            PlanetsNameInput.Visible = true;
+            OkButton.Visible = true;
         }
     }
 }

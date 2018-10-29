@@ -8,7 +8,7 @@ namespace ClassLibrary1
     public class Planet
     {
         private List<Moon> moons;
-        public string name;
+        private string name;
         public Planet(string planetname)
         {
             name = planetname;
