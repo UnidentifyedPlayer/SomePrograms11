@@ -9,18 +9,18 @@ namespace MobilePhone2
 {
     public class MobilePhoneL2 : MobilePhone
     {
-        private int simNumber;
+        private int SimNumber;
         public MobilePhoneL2(string x, float price, float m, int p) : base(x, price, m)
         {
-            this.simNumber = p;
+            this.SimNumber = p;
         }
         public int NumberOfSims
             {
-            get { return simNumber; }
+            get { return SimNumber; }
             }
         public override float Evaluate()
         {
-            return simNumber * base.Evaluate();
+            return SimNumber * base.Evaluate();
         }
     }
 }

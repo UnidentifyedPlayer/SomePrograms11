@@ -1,0 +1,5 @@
+G:\SeaShipsProject\ISeaShipable\bin\Debug\ISeaShipable.dll
+G:\SeaShipsProject\ISeaShipable\bin\Debug\ISeaShipable.pdb
+G:\SeaShipsProject\ISeaShipable\obj\Debug\ISeaShipable.csprojResolveAssemblyReference.cache
+G:\SeaShipsProject\ISeaShipable\obj\Debug\ISeaShipable.dll
+G:\SeaShipsProject\ISeaShipable\obj\Debug\ISeaShipable.pdb

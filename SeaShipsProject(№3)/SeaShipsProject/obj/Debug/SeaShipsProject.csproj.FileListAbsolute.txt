@@ -1,0 +1,2 @@
+c:\users\зажравшийся буржуй\documents\visual studio 2015\Projects\SeaShipsProject\SeaShipsProject\bin\Debug\SeaShipsProject.exe.config
+G:\SeaShipsProject\SeaShipsProject\bin\Debug\SeaShipsProject.exe.config

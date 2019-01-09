@@ -77,9 +77,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+    <ProjectReference Include="..\ClassLibrary1\SystemClasses.csproj">
       <Project>{b88d0c92-b3b1-496f-b196-d3ee8d6b8800}</Project>
-      <Name>ClassLibrary1</Name>
+      <Name>SystemClasses</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

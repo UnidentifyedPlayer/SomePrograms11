@@ -1,0 +1,38 @@
+D:\WpfApplication1\Business Logic\bin\Debug\Business Logic.dll
+D:\WpfApplication1\Business Logic\bin\Debug\Business Logic.pdb
+D:\WpfApplication1\Business Logic\obj\Debug\Business Logic.csprojResolveAssemblyReference.cache
+D:\WpfApplication1\Business Logic\obj\Debug\Business Logic.dll
+D:\WpfApplication1\Business Logic\obj\Debug\Business Logic.pdb
+D:\WpfApplication1\Business Logic\bin\Debug\DataAccessLayer.dll
+D:\WpfApplication1\Business Logic\bin\Debug\Newtonsoft.Json.dll
+D:\WpfApplication1\Business Logic\bin\Debug\EntityFramework.dll
+D:\WpfApplication1\Business Logic\bin\Debug\DataAccessLayer.pdb
+D:\WpfApplication1\Business Logic\bin\Debug\Newtonsoft.Json.pdb
+D:\WpfApplication1\Business Logic\bin\Debug\Newtonsoft.Json.xml
+D:\WpfApplication1\Business Logic\bin\Debug\EntityFramework.xml
+D:\WpfApplication1\Business Logic\bin\Debug\ClosedXML.dll
+D:\WpfApplication1\Business Logic\bin\Debug\DocumentFormat.OpenXml.dll
+D:\WpfApplication1\Business Logic\bin\Debug\ExcelNumberFormat.dll
+D:\WpfApplication1\Business Logic\bin\Debug\FastMember.dll
+D:\WpfApplication1\Business Logic\bin\Debug\ClosedXML.pdb
+D:\WpfApplication1\Business Logic\bin\Debug\ClosedXML.xml
+D:\WpfApplication1\Business Logic\bin\Debug\DocumentFormat.OpenXml.xml
+D:\WpfApplication1\Business Logic\bin\Debug\ExcelNumberFormat.xml
+G:\WpfApplication1\Business Logic\bin\Debug\Business Logic.dll
+G:\WpfApplication1\Business Logic\bin\Debug\Business Logic.pdb
+G:\WpfApplication1\Business Logic\bin\Debug\DataAccessLayer.dll
+G:\WpfApplication1\Business Logic\bin\Debug\Newtonsoft.Json.dll
+G:\WpfApplication1\Business Logic\bin\Debug\ClosedXML.dll
+G:\WpfApplication1\Business Logic\bin\Debug\DocumentFormat.OpenXml.dll
+G:\WpfApplication1\Business Logic\bin\Debug\ExcelNumberFormat.dll
+G:\WpfApplication1\Business Logic\bin\Debug\FastMember.dll
+G:\WpfApplication1\Business Logic\bin\Debug\DataAccessLayer.pdb
+G:\WpfApplication1\Business Logic\bin\Debug\Newtonsoft.Json.pdb
+G:\WpfApplication1\Business Logic\bin\Debug\Newtonsoft.Json.xml
+G:\WpfApplication1\Business Logic\bin\Debug\ClosedXML.pdb
+G:\WpfApplication1\Business Logic\bin\Debug\ClosedXML.xml
+G:\WpfApplication1\Business Logic\bin\Debug\DocumentFormat.OpenXml.xml
+G:\WpfApplication1\Business Logic\bin\Debug\ExcelNumberFormat.xml
+G:\WpfApplication1\Business Logic\obj\Debug\Business Logic.csprojResolveAssemblyReference.cache
+G:\WpfApplication1\Business Logic\obj\Debug\Business Logic.dll
+G:\WpfApplication1\Business Logic\obj\Debug\Business Logic.pdb

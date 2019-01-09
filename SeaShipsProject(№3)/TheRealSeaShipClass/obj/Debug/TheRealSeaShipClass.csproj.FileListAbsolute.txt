@@ -1,0 +1,7 @@
+G:\SeaShipsProject\TheRealSeaShipClass\bin\Debug\TheRealSeaShipClass.dll
+G:\SeaShipsProject\TheRealSeaShipClass\bin\Debug\TheRealSeaShipClass.pdb
+G:\SeaShipsProject\TheRealSeaShipClass\bin\Debug\ISeaShipable.dll
+G:\SeaShipsProject\TheRealSeaShipClass\bin\Debug\ISeaShipable.pdb
+G:\SeaShipsProject\TheRealSeaShipClass\obj\Debug\TheRealSeaShipClass.csprojResolveAssemblyReference.cache
+G:\SeaShipsProject\TheRealSeaShipClass\obj\Debug\TheRealSeaShipClass.dll
+G:\SeaShipsProject\TheRealSeaShipClass\obj\Debug\TheRealSeaShipClass.pdb

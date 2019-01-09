@@ -8,30 +8,30 @@ namespace MobilePhone1
 {
     public class MobilePhone
     {
-        private string brand;
-        private float price;
-        private float memory;
+        private string Brand;
+        private float Price;
+        private float Memory;
         public MobilePhone(string brandinput, float priceinput, float memoryinput)
         {
-            brand = brandinput;
-            price = priceinput;
-            memory = memoryinput;
+            Brand = brandinput;
+            Price = priceinput;
+            Memory = memoryinput;
         }
-        public string Brand
+        public string PhoneBrand
         {
-            get { return brand; }
+            get { return Brand; }
         }
-        public float Price
+        public float PhonePrice
         {
-            get { return price; }
+            get { return Price; }
         }
-        public float Memory
+        public float PhoneMemory
         {
-            get { return memory; }
+            get { return Memory; }
         }
         public virtual float Evaluate()
         {
-            return memory / price;
+            return Memory / Price;
         }
         //public string DisplayInfo()
         //{

@@ -1,0 +1,13 @@
+G:\SeaShipsProject\OnWorkWithShipList\bin\Debug\OnWorkWithShipList.exe.config
+G:\SeaShipsProject\OnWorkWithShipList\bin\Debug\OnWorkWithShipList.exe
+G:\SeaShipsProject\OnWorkWithShipList\bin\Debug\OnWorkWithShipList.pdb
+G:\SeaShipsProject\OnWorkWithShipList\bin\Debug\ISeaShipable.dll
+G:\SeaShipsProject\OnWorkWithShipList\bin\Debug\TheRealSeaShipClass.dll
+G:\SeaShipsProject\OnWorkWithShipList\bin\Debug\ISeaShipable.pdb
+G:\SeaShipsProject\OnWorkWithShipList\bin\Debug\TheRealSeaShipClass.pdb
+G:\SeaShipsProject\OnWorkWithShipList\obj\Debug\OnWorkWithShipList.csprojResolveAssemblyReference.cache
+G:\SeaShipsProject\OnWorkWithShipList\obj\Debug\OnWorkWithShipList.exe
+G:\SeaShipsProject\OnWorkWithShipList\obj\Debug\OnWorkWithShipList.pdb
+D:\SomePrograms\SomePrograms\SeaShipsProject(№3)\OnWorkWithShipList\bin\Debug\OnWorkWithShipList.exe.config
+D:\SomePrograms\SomePrograms\SeaShipsProject(№3)\OnWorkWithShipList\obj\Debug\OnWorkWithShipList.exe
+D:\SomePrograms\SomePrograms\SeaShipsProject(№3)\OnWorkWithShipList\obj\Debug\OnWorkWithShipList.pdb
