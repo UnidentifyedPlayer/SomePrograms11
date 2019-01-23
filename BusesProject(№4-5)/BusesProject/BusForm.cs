@@ -42,6 +42,7 @@ namespace BusesProject
         {
             Worldtimer.Start();
             world.BeginTheWorld();
+            AddBusButton.Enabled = false;
             //Drawer.DrawBus(ref g, new Point(230, 170), 40);
         }
 
@@ -65,6 +66,11 @@ namespace BusesProject
             
             Graphics g = pictureBox1.CreateGraphics();
             world.DrawWorld(g);
+        }
+
+        private void stopbutton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

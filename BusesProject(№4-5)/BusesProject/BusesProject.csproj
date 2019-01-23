@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusClass.cs" />
+    <Compile Include="BusDriverClass.cs" />
     <Compile Include="CustomClasses.cs" />
     <Compile Include="BusForm.cs">
       <SubType>Form</SubType>
@@ -53,6 +55,7 @@
     <Compile Include="BusForm.Designer.cs">
       <DependentUpon>BusForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmergencyServiceClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BusForm.resx">

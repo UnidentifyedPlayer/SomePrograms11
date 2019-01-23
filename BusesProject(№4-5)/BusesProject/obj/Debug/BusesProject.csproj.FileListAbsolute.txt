@@ -13,6 +13,6 @@ D:\SomePrograms\SomePrograms\BusesProject(№4-5)\BusesProject\obj\Debug\BusesPr
 D:\SomePrograms\SomePrograms\BusesProject(№4-5)\BusesProject\bin\Debug\BusesProject.exe
 D:\SomePrograms\SomePrograms\BusesProject(№4-5)\BusesProject\bin\Debug\BusesProject.pdb
 D:\SomePrograms\SomePrograms\BusesProject(№4-5)\BusesProject\obj\Debug\BusesProject.csprojResolveAssemblyReference.cache
-D:\SomePrograms\SomePrograms\BusesProject(№4-5)\BusesProject\obj\Debug\BusesProject.Form1.resources
 D:\SomePrograms\SomePrograms\BusesProject(№4-5)\BusesProject\obj\Debug\BusesProject.Properties.Resources.resources
 D:\SomePrograms\SomePrograms\BusesProject(№4-5)\BusesProject\obj\Debug\BusesProject.csproj.GenerateResource.Cache
+D:\SomePrograms\SomePrograms\BusesProject(№4-5)\BusesProject\obj\Debug\BusesProject.BusForm.resources

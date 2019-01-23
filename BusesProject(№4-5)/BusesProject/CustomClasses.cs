@@ -16,140 +16,16 @@ namespace BusesProject
     }
     public struct TransportInfo
     {
-        public int BusId { get; private set; }
+        public int TransportId { get; private set; }
         public Point BusPos { get; private set; }
         public TransportInfo(int i, Point pos)
         {
-            BusId = i;
+            TransportId = i;
             BusPos = pos;
         }
     }
-    public class Bus : BreakableTransport
-    {
-        public delegate void Action(BreakableTransport obj);
-        //public event Action PutCrossbarBack;
-        public event Action RepairBus;
-        public TransportInfo TransporStatus { get; set; }
-         public bool CrossbarSlipped { get; set; }
-        public bool IsBroken { get; set; }
-        public int WheelsRotation { get; set; }
-        public void Move()
-        {
-            if (!CrossbarSlipped && !IsBroken)
-            {
-                Random rnd = new Random();
-                WheelsRotation += 12;
-                if (WheelsRotation == 360)
-                    WheelsRotation = 0;
-                if ((rnd.Next(0, 100) == 1))
-                {
-                    IsBroken = true;
-                    RepairBus(this);
-                }
-                if (rnd.Next(0, 100) == 1)
-                {
-                    CrossbarSlipped = true;
-                    //PutCrossbarBack(this);
-                    Thread.Sleep(400);
-                    CrossbarSlipped = false;
-                }
-                Thread.Sleep(50);
-            }
-        }
-        public void IsRepaired()
-        {
-            IsBroken = false;
-        }
 
-        public void WheelRolling()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Bus(Point location,int i)
-        {
-            WheelsRotation = 0;
-            CrossbarSlipped = false;
-            IsBroken = false;
-            TransporStatus = new TransportInfo(i , location);
-        }
-    }
-    public class BusDriver
-        {
-        public Bus DriversBus;
-        public BusDriver(Bus newbus)
-        {
-            DriversBus = newbus;
-            //DriversBus.PutCrossbarBack += Repair;
-        }
-       public void Begin()
-        {
-            while(true)
-            this.DriversBus.Move();
-        }
-        public void Repair(BreakableTransport bus)
-        {
-            bus.IsBroken = false;
-        }
- 
-        }
-    public class EmergencyService
-    {
-
-        public delegate void Action(int busid);
-        public event Action BusIsRepaired;
-        private List<TransportInfo> Buses;
-        private Point ServiscePos;
-        private object locker = new object();
-        public int LeftWorldBound { get; private set; }
-        public void Start()
-        {
-            while (true)
-                this.Repair();
-        }
-        public Point GetLocation()
-        {
-            return ServiscePos;
-        }
-
-        private void Repair()
-        {
-            if (Buses.Count()!=0)
-            {
-                lock (locker)
-                {
-                    ServiscePos.Y = Buses[0].BusPos.Y;
-                    while (Buses[0].BusPos.X + 50 < ServiscePos.X)
-                    {
-                        Thread.Sleep(5);
-                        ServiscePos.X -= 3;
-                    }
-                    Thread.Sleep(500);
-                    BusIsRepaired(Buses[0].BusId);
-                    Buses.RemoveAt(0);
-                    while (ServiscePos.X - 50 < LeftWorldBound)
-                    {
-                        ServiscePos.X += 3;
-                        Thread.Sleep(5);
-                    }
-                }
-            }
-        }
-        public EmergencyService(Point loc, int width)
-        {
-            ServiscePos = loc;
-            Buses = new List<TransportInfo>(10);
-            WorldBoundChanged(width);
-        }
-        public void Register(BreakableTransport obj)
-        {
-            Buses.Add(obj.TransporStatus);
-        }
-        public void WorldBoundChanged(int leftbound)
-        {
-            LeftWorldBound = leftbound;
-        }
-    }
+   
     public class World
     {
         private bool IsWorldAlive; 
@@ -204,7 +80,7 @@ namespace BusesProject
             graphic.Clear(Color.White);
             foreach (BusDriver bus in Buses)
             {
-                Drawer.DrawBus(ref graphic, bus.DriversBus.TransporStatus, bus.DriversBus.WheelsRotation);
+                Drawer.DrawBus(ref graphic, bus.DriversBus.TransporStatus, bus.DriversBus.WheelsRotation, bus.DriversBus.CrossbarSlipped);
             }
             Drawer.DrawEmergencyService(ref graphic, MainBrigade.GetLocation());
         }
@@ -212,11 +88,14 @@ namespace BusesProject
     public class Drawer
     {
 
-        public static void DrawBus(ref Graphics graphic,TransportInfo businfo, float rotation)
+        public static void DrawBus(ref Graphics graphic,TransportInfo businfo, float rotation, bool IsCrossbarSlipped)
         {
             graphic.DrawRectangle(Pens.Black, businfo.BusPos.X - 50, businfo.BusPos.Y - 20, 100, 40);
             Drawer.DrawWheel(ref graphic, rotation, new Point(businfo.BusPos.X -30, businfo.BusPos.Y+30));
-            Drawer.DrawWheel(ref graphic, rotation, new Point(businfo.BusPos.X + 30, businfo.BusPos.Y+30));
+            if(IsCrossbarSlipped)
+            Drawer.DrawWheel(ref graphic, rotation, new Point(businfo.BusPos.X + 30, businfo.BusPos.Y+15));
+            else
+                Drawer.DrawWheel(ref graphic, rotation, new Point(businfo.BusPos.X + 30, businfo.BusPos.Y + 30));
         }
          public static void DrawWheel(ref Graphics graphic,float rotation, Point ocation)
         {
