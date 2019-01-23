@@ -1,0 +1,13 @@
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\bin\Debug\ClassLibrary2.dll
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\bin\Debug\MobilePhoneL2.dll
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\bin\Debug\ClassLibrary2.pdb
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\bin\Debug\MobilePhoneL2.pdb
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\obj\Debug\PhoneDataBase.csprojResolveAssemblyReference.cache
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.PhoneDataForm.resources
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\SomePrograms\SomePrograms\№2\WindowsFormsApplication1\obj\Debug\PhoneDataBase.csproj.GenerateResource.Cache

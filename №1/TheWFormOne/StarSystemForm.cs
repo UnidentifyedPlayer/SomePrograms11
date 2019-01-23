@@ -21,11 +21,11 @@ namespace TheWFormOne
         bool isSystemCreated = false;
         private void Form1_Load(object sender, EventArgs e)
         {
-            NumberOfPlanetsButton.Visible = false;
-            StarNameButton.Visible = false;
+            ShowNumberOfPlanetsButton.Visible = false;
+            ShowStarNameButton.Visible = false;
             AddPlanetButton.Visible = false;
-            PlanetsName.Visible = false;
-            PlanetsNameInput.Visible = false;
+            InputPlanetsNameLabel.Visible = false;
+            PlanetsNameInputBox.Visible = false;
         }
 
         private void NumberOfPlanetsButton_Click(object sender, EventArgs e)
@@ -35,10 +35,10 @@ namespace TheWFormOne
 
         private void button3_Click(object sender, EventArgs e)
         {
-            PlanetsName.Visible = true;
-            StarsNameInput.Visible = true;
-            PlanetsNameInput.Visible = true;
-            OkButton.Visible = true;
+            InputPlanetsNameLabel.Visible = true;
+            StarsNameInputBox.Visible = true;
+            PlanetsNameInputBox.Visible = true;
+            ConfirmChangesButton.Visible = true;
         }
 
         private void StarNameButton_Click(object sender, EventArgs e)
@@ -50,20 +50,20 @@ namespace TheWFormOne
         {
             if (!isSystemCreated)
             {
-                if ((StarsNameInput.Text != "") && (SystemsNameInput.Text != ""))
+                if ((StarsNameInputBox.Text != "") && (SystemsNameInputBox.Text != ""))
                 {
-                    string[] a = new string[] { SystemsNameInput.Text, StarsNameInput.Text };
+                    string[] a = new string[] { SystemsNameInputBox.Text, StarsNameInputBox.Text };
                     SystemsInstance = new StarSystem(a);
-                    NumberOfPlanetsButton.Visible = true;
-                    StarNameButton.Visible = true;
+                    ShowNumberOfPlanetsButton.Visible = true;
+                    ShowStarNameButton.Visible = true;
                     AddPlanetButton.Visible = true;
-                    SystemsName.Visible = false;
-                    StarsName.Visible = false;
-                    StarsNameInput.Visible = false;
-                    SystemsNameInput.Visible = false;
-                    OkButton.Visible = false;
-                    StarsNameInput.Clear();
-                    SystemsNameInput.Clear();
+                    InputSystemsNameLabel.Visible = false;
+                    InputStarsNameLabel.Visible = false;
+                    StarsNameInputBox.Visible = false;
+                    SystemsNameInputBox.Visible = false;
+                    ConfirmChangesButton.Visible = false;
+                    StarsNameInputBox.Clear();
+                    SystemsNameInputBox.Clear();
                     isSystemCreated = true;
                 }
 
@@ -74,21 +74,21 @@ namespace TheWFormOne
             }
             else
             {
-                SystemsInstance.AddPlanet(StarsNameInput.Text);
-                OkButton.Visible = false;
-                StarsNameInput.Visible = false;
-                PlanetsName.Visible = false;
-                PlanetsNameInput.Visible = false;
-                StarsNameInput.Clear();
-                SystemsNameInput.Clear();
+                SystemsInstance.AddPlanet(StarsNameInputBox.Text);
+                ConfirmChangesButton.Visible = false;
+                StarsNameInputBox.Visible = false;
+                InputPlanetsNameLabel.Visible = false;
+                PlanetsNameInputBox.Visible = false;
+                StarsNameInputBox.Clear();
+                SystemsNameInputBox.Clear();
             }
         }
 
         private void AddPlanetButton_Click(object sender, EventArgs e)
         {
-            PlanetsName.Visible = true;
-            PlanetsNameInput.Visible = true;
-            OkButton.Visible = true;
+            InputPlanetsNameLabel.Visible = true;
+            PlanetsNameInputBox.Visible = true;
+            ConfirmChangesButton.Visible = true;
         }
     }
 }

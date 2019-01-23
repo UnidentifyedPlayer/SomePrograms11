@@ -11,14 +11,18 @@ namespace Business_Logic
 {
     public class Logic
     {
-        private bool IsEndReached;
-        private CandleModel CandleData;
+        public bool IsEndReached { get; private set; }
+        public int CurrentIndex { get; private set; }
+        private int CandleCount { get; set; }
+        private IRepository CandleData;
         private List<ChartData> CalculationQueue;
         public Logic()
         {
             CandleData = new CandleModel();
-            CalculationQueue = new List<Business_Logic.ChartData>(14);
+            CalculationQueue = new List<ChartData>(14);
             IsEndReached = true;
+            CurrentIndex = 0;
+            CandleCount = 0;
         }
         public void NewDataBase(string path)
         {
@@ -30,39 +34,43 @@ namespace Business_Logic
             {
                 CandleData.FillModel(path, new ExcelReader());
             }
+            CurrentIndex = 0;
+            CandleCount = CandleData.GiveNumberOfCandles();
             IsEndReached = false;
         }
         public ChartData  GiveNextPoint()
         {
-            ChartData newdata = CalculationQueue[CalculationQueue.Count - 1];
-            PullNext();
-            return newdata;
-        }
-        public int GetCurIndex()
-        {
-            return CandleData.GetCurIndex();
-        }
-        public double GiveNextADX()
-        {
-            double newADI = CalculationQueue[CalculationQueue.Count - 1].ADX;
-            PullNext();
-            return newADI;
+            if (!IsEndReached)
+            {
+                ChartData newdata = CalculationQueue[CalculationQueue.Count - 1];
+                PullNext();
+                return newdata;
+            }
+            else
+            {
+                return new ChartData(CandleEntity.EmptyCandle());
+            }
         }
         public void PullNext()
         {
-            if (CandleData == null)
+            if (CurrentIndex < CandleCount)
             {
-                return;
+                if (CandleData == null)
+                {
+                    return;
+                }
+                if (CalculationQueue.Count == 14)
+                {
+                    CalculationQueue.RemoveAt(0);
+                }
+                CalculationQueue.Add(new ChartData(CandleData.Get(CurrentIndex)));
+                ComputeData();
+                CurrentIndex++;
             }
-            if(CalculationQueue.Count == 14)
-            {
-                CalculationQueue.RemoveAt(0);
-            }
-            CalculationQueue.Add(new ChartData(CandleData.GetNextTimeCandle()));
-            if (CalculationQueue[CalculationQueue.Count-1].CandleInfo.TimeStamp == -1)
-                IsEndReached = true;
             else
-            ComputeData();
+            {
+                IsEndReached = true;
+            }
         }
         private void ComputeData()
         {

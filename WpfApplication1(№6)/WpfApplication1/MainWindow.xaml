@@ -27,22 +27,11 @@
             <s:SciChartSurface.RenderableSeries>
 
                 <!--  Candlestick bodies now support gradients as well as solid colours  -->
-                <s:FastCandlestickRenderableSeries>
-                    <s:FastCandlestickRenderableSeries.FillUp>
-                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                            <GradientStop Offset="0" Color="#55002200"/>
-                            <GradientStop Offset="1" Color="#FF00AA00"/>
-                        </LinearGradientBrush>
-                    </s:FastCandlestickRenderableSeries.FillUp>
-                    <s:FastCandlestickRenderableSeries.FillDown>
-                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                            <GradientStop Offset="0" Color="#55441111"/>
-                            <GradientStop Offset="1" Color="#FFFF0000"/>
-                        </LinearGradientBrush>
-                    </s:FastCandlestickRenderableSeries.FillDown>
-                </s:FastCandlestickRenderableSeries>
+                
+                <s:FastLineRenderableSeries x:Name="lineRenderSeries" Stroke="#FF99EE99" StrokeThickness="2"/>
             </s:SciChartSurface.RenderableSeries>
 
+            
             <!--  Create an X Axis  -->
             <s:SciChartSurface.XAxis>
                 <s:CategoryDateTimeAxis Name ="AxisX"/>

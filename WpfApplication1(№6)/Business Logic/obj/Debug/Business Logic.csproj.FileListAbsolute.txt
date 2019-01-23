@@ -36,3 +36,21 @@ G:\WpfApplication1\Business Logic\bin\Debug\ExcelNumberFormat.xml
 G:\WpfApplication1\Business Logic\obj\Debug\Business Logic.csprojResolveAssemblyReference.cache
 G:\WpfApplication1\Business Logic\obj\Debug\Business Logic.dll
 G:\WpfApplication1\Business Logic\obj\Debug\Business Logic.pdb
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\Business Logic.dll
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\Business Logic.pdb
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\DataAccessLayer.dll
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\Newtonsoft.Json.dll
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\ClosedXML.dll
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\DocumentFormat.OpenXml.dll
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\ExcelNumberFormat.dll
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\FastMember.dll
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\DataAccessLayer.pdb
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\Newtonsoft.Json.pdb
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\Newtonsoft.Json.xml
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\ClosedXML.pdb
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\ClosedXML.xml
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\DocumentFormat.OpenXml.xml
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\bin\Debug\ExcelNumberFormat.xml
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\obj\Debug\Business Logic.csprojResolveAssemblyReference.cache
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\obj\Debug\Business Logic.dll
+D:\SomePrograms\SomePrograms\WpfApplication1(№6)\Business Logic\obj\Debug\Business Logic.pdb

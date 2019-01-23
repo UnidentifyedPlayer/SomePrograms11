@@ -79,7 +79,7 @@ namespace WpfApplication1
             };
             annotation = new CustomAnnotation()
             {
-                X1 = logic.GetCurIndex(),
+                X1 = logic.CurrentIndex,
                 Y1 = nextAdxPoint,
                 Content = arrow,
                 ContentTemplate = (DataTemplate)sciChart.Resources["AnnotationTemplate"],
@@ -96,7 +96,7 @@ namespace WpfApplication1
         }
         private void AddChartData()
         {
-            while (true)
+            while(!logic.IsEndReached)
             {
                 logic.PullNext();
                 Thread.Sleep(500);

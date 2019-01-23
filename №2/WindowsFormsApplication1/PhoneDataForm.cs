@@ -20,8 +20,8 @@ namespace WindowsFormsApplication1
             
         }
 
-         public static List<MobilePhone> firstLVList = new List<MobilePhone>(0);
-        public static List<MobilePhoneL2> secondLVList = new List<MobilePhoneL2>(0);
+         private static List<MobilePhone> firstLVList = new List<MobilePhone>(0);
+        private static List<MobilePhoneL2> secondLVList = new List<MobilePhoneL2>(0);
         private void AddLvl1phone_Click(object sender, EventArgs e)
         {
             string brand = brandInput.Text;

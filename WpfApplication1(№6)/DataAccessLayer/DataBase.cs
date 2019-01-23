@@ -32,14 +32,13 @@ namespace DataAccessLayer
     public interface IRepository
     { 
         CandleEntity Get(int id);
-        int GetCurIndex();
-        CandleEntity GetNextTimeCandle();
         List<CandleEntity> List();
+        void FillModel(string path, IReader reader);
+        int GiveNumberOfCandles();
     }
     public class CandleModel : IRepository
     {
         private List<CandleEntity> Candles;
-        private int CurrentIndex { get; set; }
         public CandleEntity Get(int id)
         {
             return Candles[id];
@@ -48,20 +47,20 @@ namespace DataAccessLayer
         {
             return Candles;
         }
-        public CandleEntity GetNextTimeCandle()
+        public int GiveNumberOfCandles()
         {
-            if (Candles.Count >= CurrentIndex)
+            if (Candles == null)
             {
-                CurrentIndex++;
-                return Candles[CurrentIndex];
+                return -1;
             }
             else
-                return CandleEntity.EmptyCandle();
+            {
+                return Candles.Count;
+            }
         }
         public void FillModel(string path, IReader reader)
         {
             Candles = reader.ReadCandles(path);
-            CurrentIndex = 0;
         }
         public void Clear()
         {
@@ -69,11 +68,6 @@ namespace DataAccessLayer
             {
                 Candles.Clear();
             }
-        }
-
-        public int GetCurIndex()
-        {
-            return CurrentIndex;
         }
     }
     public interface IReader
